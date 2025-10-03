@@ -1,16 +1,14 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+### IntelliJ / JetBrains ###
+**/.idea/
+**/*.iml
+
+### Build outputs (recursive) ###
+**/out/
+**/build/
+**/.gradle/
+
+### Kotlin (if ever used) ###
 .kotlin
-
-# IntelliJ
-.idea/
-*.iml
-
-# Build outputs
-build/
-.gradle/
 
 ### Eclipse ###
 .apt_generated
@@ -20,9 +18,7 @@ build/
 .settings
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+**/bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -34,5 +30,5 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### OS ###
 .DS_Store
