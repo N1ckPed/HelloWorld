@@ -4,11 +4,11 @@ out/
 !**/src/test/**/out/
 .kotlin
 
-# IntelliJ (keep it simple)
+# IntelliJ
 .idea/
 *.iml
 
-# Build outputs (now or future)
+# Build outputs
 build/
 .gradle/
 
